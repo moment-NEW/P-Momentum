@@ -4,3 +4,12 @@
 [submodule "P-RTLog"]
 	path = P-RTLog
 	url = https://github.com/moment-NEW/P-RTLog.git
+[submodule "P-POCR"]
+	path = P-POCR
+	url = https://github.com/moment-NEW/P-POCR.git
+[submodule "RTTView-Ciallo"]
+	path = RTTView-Ciallo
+	url = https://github.com/moment-NEW/RTTView-Ciallo.git
+[submodule "ARM-CLANG-EX"]
+	path = ARM-CLANG-EX
+	url = https://github.com/moment-NEW/ARM-CLANG-EX.git
