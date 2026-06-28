@@ -1,0 +1,6 @@
+[submodule "P-STM32Cubedts"]
+	path = P-STM32Cubedts
+	url = https://github.com/moment-NEW/P-STM32Cubedts.git
+[submodule "P-RTLog"]
+	path = P-RTLog
+	url = https://github.com/moment-NEW/P-RTLog.git
