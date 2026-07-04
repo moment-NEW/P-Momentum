@@ -33,6 +33,7 @@ P-Momentum 是一个以**嵌入式开发**为核心的工具集合。如同物�
 | [P-RTLog](https://github.com/moment-NEW/P-RTLog) | RTT 日志采集与分析工具 | — | 🟢 活跃开发 | P0 |
 | [RTTView-Ciallo](https://github.com/moment-NEW/RTTView-Ciallo) | 更好用的 SEGGER-RTT Client，支持 J-Link 和 DAPLink | — | 🟡 仅维护 | P1 |
 | [P-POCR](https://github.com/moment-NEW/P-POCR) | 嵌入式平台 OCR / 文字识别工具 | — | 🟡 维护中 | P1 |
+| [P-span](https://github.com/moment-NEW/P-span) | C/C++双实现的span:轻量、非拥有的视图 | — | 🟠 维护中 | P2 |
 | ARM-CLANG-EX | ARM Clang 编译器扩展与辅助工具 | — | 🔒 私有仓库 | P3 |
 
 > 优先级不代表工具价值，仅反映当前维护意愿。欢迎提 Issue 或 PR 推动任何项目。
