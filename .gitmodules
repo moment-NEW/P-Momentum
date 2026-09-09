@@ -13,3 +13,15 @@
 [submodule "ARM-CLANG-EX"]
 	path = ARM-CLANG-EX
 	url = https://github.com/moment-NEW/ARM-CLANG-EX.git
+[submodule "P-docs"]
+	path = P-docs
+	url = https://github.com/moment-NEW/P-docs.git
+[submodule "P-haskell-dsp"]
+	path = P-haskell-dsp
+	url = https://github.com/moment-NEW/P-haskell-dsp.git
+[submodule "P-LinkerLanguage"]
+	path = P-LinkerLanguage
+	url = https://github.com/moment-NEW/P-LinkerLanguage.git
+[submodule "P-span"]
+	path = P-span
+	url = https://github.com/moment-NEW/P-span.git

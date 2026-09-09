@@ -34,6 +34,9 @@ P-Momentum 是一个以**嵌入式开发**为核心的工具集合。如同物�
 | [RTTView-Ciallo](https://github.com/moment-NEW/RTTView-Ciallo) | 更好用的 SEGGER-RTT Client，支持 J-Link 和 DAPLink | — | 🟡 仅维护 | P1 |
 | [P-POCR](https://github.com/moment-NEW/P-POCR) | 嵌入式平台 OCR / 文字识别工具 | — | 🟡 维护中 | P1 |
 | [P-span](https://github.com/moment-NEW/P-span) | C/C++双实现的span:轻量、非拥有的视图 | — | 🟠 维护中 | P2 |
+| [P-LinkerLanguage](https://github.com/moment-NEW/P-LinkerLanguage) | 用 C 结构体描述链接布局，自动生成 GNU ld / Arm scatter 链接脚本 | Python / C | 🟡 维护中 | P1 |
+| [P-haskell-dsp](https://github.com/moment-NEW/P-haskell-dsp) | Haskell (Copilot EDSL) → C99 滤波器代码生成，常数时间 / 常数内存 | Haskell / C | 🟡 维护中 | P1 |
+| [P-docs](https://github.com/moment-NEW/P-docs) | PaddleOCR markdown 化的嵌入式芯片手册 | Markdown | 🟠 按需更新 | P2 |
 | ARM-CLANG-EX | ARM Clang 编译器扩展与辅助工具 | — | 🔒 私有仓库 | P3 |
 
 > 优先级不代表工具价值，仅反映当前维护意愿。欢迎提 Issue 或 PR 推动任何项目。
@@ -48,6 +51,12 @@ git clone https://github.com/moment-NEW/P-RTLog.git
 # P1 — 仅维护
 git clone https://github.com/moment-NEW/RTTView-Ciallo.git
 git clone https://github.com/moment-NEW/P-POCR.git
+git clone https://github.com/moment-NEW/P-LinkerLanguage.git
+git clone https://github.com/moment-NEW/P-haskell-dsp.git
+
+# P2 — 按需更新
+git clone https://github.com/moment-NEW/P-span.git
+git clone https://github.com/moment-NEW/P-docs.git
 ```
 
 各工具独立使用，详见各自仓库的 README。`ARM-CLANG-EX` 为私有仓库，暂不公开。
@@ -63,6 +72,10 @@ P-Momentum/
 ├── P-RTLog/             # 🟢 P0：RTT 日志采集与分析
 ├── RTTView-Ciallo/      # 🟡 P1：SEGGER-RTT Client（仅维护）
 ├── P-POCR/              # 🟡 P1：嵌入式 OCR 工具
+├── P-LinkerLanguage/    # 🟡 P1：链接布局 → GNU ld / scatter 生成
+├── P-haskell-dsp/       # 🟡 P1：Haskell → C99 滤波器代码生成
+├── P-span/              # 🟠 P2：C/C++ 双实现的轻量 span 视图
+├── P-docs/              # 🟠 P2：markdown 化嵌入式手册
 ├── ARM-CLANG-EX/        # 🔒 P3：ARM Clang 编译器扩展（私有）
 └── P-xxx/               # 🔜 未来子项目以 P- 前缀命名
 ```
