@@ -33,9 +33,9 @@ P-Momentum 是一个以**嵌入式开发**为核心的工具集合。如同物�
 | [P-RTLog](https://github.com/moment-NEW/P-RTLog) | RTT 日志采集与分析工具 | — | 🟢 活跃开发 | P0 |
 | [RTTView-Ciallo](https://github.com/moment-NEW/RTTView-Ciallo) | 更好用的 SEGGER-RTT Client，支持 J-Link 和 DAPLink | — | 🟡 仅维护 | P1 |
 | [P-POCR](https://github.com/moment-NEW/P-POCR) | 嵌入式平台 OCR / 文字识别工具 | — | 🟡 维护中 | P1 |
-| [P-span](https://github.com/moment-NEW/P-span) | C/C++双实现的span:轻量、非拥有的视图 | — | 🟠 维护中 | P2 |
 | [P-LinkerLanguage](https://github.com/moment-NEW/P-LinkerLanguage) | 用 C 结构体描述链接布局，自动生成 GNU ld / Arm scatter 链接脚本 | Python / C | 🟡 维护中 | P1 |
 | [P-haskell-dsp](https://github.com/moment-NEW/P-haskell-dsp) | Haskell (Copilot EDSL) → C99 滤波器代码生成，常数时间 / 常数内存 | Haskell / C | 🟡 维护中 | P1 |
+| [P-span](https://github.com/moment-NEW/P-span) | C/C++双实现的span:轻量、非拥有的视图 | — | 🟠 维护中 | P2 |
 | [P-docs](https://github.com/moment-NEW/P-docs) | PaddleOCR markdown 化的嵌入式芯片手册 | Markdown | 🟠 按需更新 | P2 |
 | ARM-CLANG-EX | ARM Clang 编译器扩展与辅助工具 | — | 🔒 私有仓库 | P3 |
 
